@@ -1,0 +1,74 @@
+
+.container{
+display: block;
+right:200px;
+margin-top:250px;
+}
+
+
+h1{
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+h1, h3{
+	font-family: helvetica;
+	color:white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+body{
+background-color: tan;
+}
+
+#textoCastanho{
+	text-decoration-line: underline;
+	color: black}
+
+h1{
+	font-size: 35px;
+}
+h3{
+	font-size: 17px;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1400px){
+
+body{
+	background-color: khaki;
+}
+
+#textoAmarelo{
+	text-decoration-line: underline;
+	color: black}
+
+}
+
+
+
+@media screen and (min-width: 1401px)  {
+
+body{
+	background-color: coral;
+}
+
+#textoCoral{
+	text-decoration-line: underline;
+	color: black}
+
+
+}
+
